@@ -8,8 +8,8 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import cn from "clsx";
 import MenuCard from "@/components/MenuCard";
 import { Category, MenuItem } from "@/type";
-import { SearchBar } from "react-native-screens";
 import Filter from "@/components/Filter";
+import SearchBar from "@/components/SearchBar";
 const Search = () => {
   const { category, query } = useLocalSearchParams<{
     query: string;
